@@ -1,3 +1,5 @@
+# 這是在 outputs.tf 檔案中定義的內容。output 就是 Terraform 執行完畢後，在螢幕上顯示給你看的「結果」或「回報」
+
 output "cluster_name" {
   description = "Amazon Web Service EKS Cluster Name"
   value       = module.eks.cluster_name
